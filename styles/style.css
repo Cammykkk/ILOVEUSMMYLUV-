@@ -366,6 +366,7 @@ body {
     box-sizing: border-box;
     color: var(--text-color);
     text-align: center;
+    word-break: break-all;
 }
 
 .content-title {
@@ -1159,5 +1160,6 @@ body {
         font-size: 1em;
     }
 }
+
 
 
