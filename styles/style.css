@@ -986,19 +986,19 @@ body {
     }
 
     .carousel-item img {
-        width: 300px; /* Fotos de álbum más grandes */
-        height: 300px;
+        width: 200px; /* Fotos de álbum más grandes */
+        height: 200px;
         margin-bottom: 8px;
     }
 
     .song-title {
-        font-size: 1.8em; /* Ligeramente más grande para legibilidad */
+        font-size: 1.5em; /* Ligeramente más grande para legibilidad */
         word-break: break-word; /* Permite que el título se rompa en varias líneas si es muy largo */
         hyphens: auto; /* Ayuda a la división de palabras si el navegador lo soporta */
     }
 
     .song-artist {
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
 
     .carousel-btn {
@@ -1039,19 +1039,19 @@ body {
     }
 
     .carousel-item img {
-        width: 310px; /* ¡Fotos de álbum más grandes para celulares! */
-        height: 310px;
+        width: 200px; /* ¡Fotos de álbum más grandes para celulares! */
+        height: 200px;
         margin-bottom: 6px;
     }
 
     .song-title {
-        font-size: 2.3em; /* Un buen tamaño para que el título se vea completo */
+        font-size: 1.5em; /* Un buen tamaño para que el título se vea completo */
         word-break: break-word;
         hyphens: auto;
     }
 
     .song-artist {
-        font-size: 1.3em;
+        font-size: 0.9em;
     }
 
     .carousel-btn-wrapper { /* Si usas un contenedor para tus botones */
@@ -1091,19 +1091,19 @@ body {
     }
 
     .carousel-item img {
-        width: 300px; /* Ajuste para fotos más grandes en estas pantallas */
-        height: 300px;
+        width: 200px; /* Ajuste para fotos más grandes en estas pantallas */
+        height: 200px;
         margin-bottom: 5px;
     }
 
     .song-title {
-        font-size: 2.2em; /* Asegurar que el título quepa bien */
+        font-size: 1.5em; /* Asegurar que el título quepa bien */
         word-break: break-word;
         hyphens: auto;
     }
 
     .song-artist {
-        font-size: 1.3em;
+        font-size: 0.9em;
     }
 
     .carousel-btn {
@@ -1116,7 +1116,7 @@ body {
     .play-song-btn {
         width: 50px;
         height: 50px;
-        font-size: 2.5em;
+        font-size: 3em;
     }
 }
 
@@ -1160,6 +1160,7 @@ body {
         font-size: 1em;
     }
 }
+
 
 
 
