@@ -1043,8 +1043,8 @@ body {
     }
 
     .carousel-item img {
-        width: 160px; /* ¡Fotos de álbum más grandes para celulares! */
-        height: 160px;
+        width: 200px; /* ¡Fotos de álbum más grandes para celulares! */
+        height: 200px;
         margin-bottom: 6px;
     }
 
@@ -1095,8 +1095,8 @@ body {
     }
 
     .carousel-item img {
-        width: 130px; /* Ajuste para fotos más grandes en estas pantallas */
-        height: 130px;
+        width: 190px; /* Ajuste para fotos más grandes en estas pantallas */
+        height: 190px;
         margin-bottom: 5px;
     }
 
@@ -1164,6 +1164,7 @@ body {
         font-size: 0.7em;
     }
 }
+
 
 
 
