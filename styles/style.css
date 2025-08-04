@@ -31,6 +31,7 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
+    
 }
 
 .intro-container {
@@ -75,6 +76,128 @@ body {
 
 .footer{
     color: var(--secondary-color)
+}
+
+/* --- AJUSTES PARA TABLETAS (horizontal y vertical) y Laptops pequeñas --- */
+@media (max-width: 1024px) {
+    .intro-container {
+        padding: 6vw 8vw;
+        border-radius: 18px;
+    }
+
+    .game-title {
+        font-size: 3.2em;
+        margin-bottom: 45px;
+        text-shadow: 4px 4px 0px var(--secondary-color);
+    }
+
+    .play-button {
+        padding: 1.5em 3.5em;
+        font-size: 1.8em;
+        border-width: 3px;
+    }
+
+    .footer {
+        font-size: 0.8em;
+        padding: 15px;
+    }
+
+    /* Ajuste el padding del index-page en este breakpoint si es necesario */
+    .index-page {
+        padding: 40px 4vw; /* Un poco menos de padding en pantallas medianas */
+    }
+}
+
+/* --- AJUSTES PARA CELULARES GRANDES (horizontal y vertical, ej. iPhone 15 Pro Max) y Tabletas pequeñas --- */
+@media (max-width: 768px) {
+    .intro-container {
+        padding: 8vw 10vw;
+        width: 95%;
+        border-width: 3px;
+        border-radius: 15px;
+    }
+
+    .game-title {
+        font-size: 2.3em;
+        margin-bottom: 35px;
+        text-shadow: 3px 3px 0px var(--secondary-color);
+    }
+
+    .play-button {
+        padding: 1.2em 2.5em;
+        font-size: 1.4em;
+        border-width: 3px;
+    }
+
+    .footer {
+        font-size: 0.75em;
+        padding: 12px;
+    }
+
+    /* Ajuste del padding del index-page para celulares grandes */
+    .index-page {
+        padding: 30px 3vw; /* Reducimos el padding lateral para celulares */
+    }
+}
+
+/* --- AJUSTES PARA CELULARES ESTÁNDAR (ej. iPhone 15, 14, SE) --- */
+@media (max-width: 480px) {
+    .intro-container {
+        padding: 10vw 12vw;
+        border-radius: 12px;
+    }
+
+    .game-title {
+        font-size: 1.8em;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 0px var(--secondary-color);
+    }
+
+    .play-button {
+        padding: 1em 2em;
+        font-size: 1.1em;
+        border-width: 2px;
+    }
+
+    .footer {
+        font-size: 0.65em;
+        padding: 10px;
+    }
+
+    /* Ajuste del padding del index-page para celulares estándar */
+    .index-page {
+        padding: 20px 2.5vw; /* Más ajuste para asegurar espacio */
+    }
+}
+
+/* --- AJUSTES EXTRA PEQUEÑOS (ej. iPhone 5/SE original, o dispositivos muy pequeños) --- */
+@media (max-width: 360px) {
+    .intro-container {
+        padding: 8vw 10vw;
+        border-radius: 8px;
+    }
+
+    .game-title {
+        font-size: 1.5em;
+        margin-bottom: 25px;
+        text-shadow: 1px 1px 0px var(--secondary-color);
+    }
+
+    .play-button {
+        padding: 0.8em 1.5em;
+        font-size: 1em;
+        border-width: 2px;
+    }
+
+    .footer {
+        font-size: 0.6em;
+        padding: 8px;
+    }
+
+    /* Ajuste del padding del index-page para pantallas muy pequeñas */
+    .index-page {
+        padding: 15px 2vw; /* Mínimo padding para evitar desbordamientos */
+    }
 }
    
 /* Animación de corazón */
@@ -287,7 +410,7 @@ body {
 }
 
 .gallery-item {
-   background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
+   background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
     border: 6px solid rgba(182, 25, 101, 0.957); /* Borde rosa pastel */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: var(--soft-shadow);
@@ -380,7 +503,7 @@ body {
 }
 
 .round-text-container {
-   background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
+   background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
     border: var(--pixel-border);
     border-radius: 20px; /* Borde más redondeado para el texto */
     padding: 20px 30px;
@@ -422,7 +545,7 @@ body {
 }
 
 .gift-item {
-   background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
+   background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
     border: var(--pixel-border);
     border-radius: 12px; /* Bordes redondeados */
     box-shadow: var(--soft-shadow);
@@ -553,7 +676,7 @@ body {
 
 /* Estilos de la Carta */
 .letter-container {
-    background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
+    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
     border: var(--pixel-border);
     border-radius: 15px;
     box-shadow: var(--pixel-shadow);
@@ -714,7 +837,7 @@ body {
     margin: 50px auto;
     display: flex; /* Permite alinear el inner y los botones */
     align-items: center; /* Centra verticalmente los botones con el carrusel */
-    background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
+    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
     border: var(--pixel-border);
     border-radius: 15px;
     box-shadow: var(--pixel-shadow);
@@ -841,50 +964,191 @@ body {
     border-color: #1b5e1f00;
 }
 
+/* ========================================= */
+/* === AJUSTES PARA RESPONSIVIDAD DEL CARRUSEL (PLAYLIST) === */
+/* ========================================= */
 
-/* Media queries para responsividad (ajusta si es necesario) */
+/* --- AJUSTES PARA TABLETAS (horizontal y vertical) y Laptops pequeñas --- */
+@media (max-width: 1024px) {
+    .carousel-container {
+        width: 95%; /* Ocupa más ancho en pantallas medianas */
+        margin: 40px auto; /* Reducir margen vertical */
+        padding: 15px; /* Reducir padding */
+        border-radius: 12px;
+    }
+
+    .carousel-item {
+        min-width: 220px; /* Un poco más pequeño para ver más ítems o un buen chunk del siguiente */
+        padding: 12px;
+        margin: 0 8px;
+        border-radius: 8px;
+    }
+
+    .carousel-item img {
+        width: 120px; /* Reducir tamaño de la portada */
+        height: 120px;
+        margin-bottom: 8px;
+    }
+
+    .song-title {
+        font-size: 1em; /* Ajustar el tamaño de fuente */
+    }
+
+    .song-artist {
+        font-size: 0.85em;
+    }
+
+    .carousel-btn {
+        width: 45px; /* Botones un poco más pequeños */
+        height: 45px;
+        font-size: 1.8em;
+        margin: 0 10px;
+    }
+
+    .play-song-btn {
+        width: 40px; /* Botón de play un poco más pequeño */
+        height: 40px;
+        font-size: 1em;
+    }
+}
+
+/* --- AJUSTES PARA CELULARES GRANDES (horizontal y vertical) y Tabletas pequeñas --- */
 @media (max-width: 768px) {
     .carousel-container {
-        width: 95%;
-        padding: 15px;
+        width: 98%; /* Casi todo el ancho para aprovechar el espacio */
         margin: 30px auto;
+        padding: 10px;
+        flex-direction: column; /* ¡CRÍTICO! Apila los botones de navegación y el carrusel */
+        border-radius: 10px;
     }
+
+    .carousel-inner {
+        width: 100%; /* El carrusel interno ocupa todo el ancho disponible */
+        margin-bottom: 15px; /* Espacio entre el carrusel y los botones apilados */
+    }
+
     .carousel-item {
-        min-width: 200px;
+        min-width: 60%; /* Ocupa más ancho para que se vea una canción principal y parte de la siguiente */
+        /* O, si quieres que se vea una sola canción grande, puedes poner: min-width: 90%; */
+        padding: 10px;
         margin: 0 5px;
+        border-radius: 6px;
     }
+
     .carousel-item img {
-        width: 120px;
-        height: 120px;
+        width: 100px; /* Reducir más el tamaño de la portada */
+        height: 100px;
+        margin-bottom: 6px;
     }
+
+    .song-title {
+        font-size: 0.9em;
+    }
+
+    .song-artist {
+        font-size: 0.8em;
+    }
+
+    .carousel-btn-wrapper { /* Un contenedor si decides agrupar los botones */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .carousel-btn {
+        position: static; /* Quita el posicionamiento absoluto si lo tuvieran */
+        margin: 0 8px; /* Espacio horizontal entre los botones */
+        width: 40px; /* Botones más pequeños para móviles */
+        height: 40px;
+        font-size: 1.5em;
+    }
+
+    .play-song-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9em;
+        margin-top: 8px;
+    }
+}
+
+/* --- AJUSTES PARA CELULARES ESTÁNDAR (ej. iPhone 15, 14, SE) --- */
+@media (max-width: 480px) {
+    .carousel-container {
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .carousel-item {
+        min-width: 80%; /* Asegura que una canción se vea bien clara */
+        padding: 8px;
+        margin: 0 4px;
+    }
+
+    .carousel-item img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 5px;
+    }
+
+    .song-title {
+        font-size: 0.8em;
+    }
+
+    .song-artist {
+        font-size: 0.7em;
+    }
+
     .carousel-btn {
         width: 35px;
         height: 35px;
-        font-size: 1.2em;
-        margin: 0 5px;
+        font-size: 1.3em;
+        margin: 0 6px;
+    }
+
+    .play-song-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 0.8em;
+        margin-top: 6px;
     }
 }
 
-@media (max-width: 480px) {
+/* --- AJUSTES EXTRA PEQUEÑOS (ej. iPhone 5/SE original, o dispositivos muy pequeños) --- */
+@media (max-width: 360px) {
     .carousel-container {
-        flex-direction: column; /* Apila botones y carrusel en pantallas pequeñas */
-        padding: 10px;
+        padding: 6px;
     }
-    .carousel-btn {
-        margin: 10px 0; /* Espacio vertical para los botones */
-        position: static; /* Quita el posicionamiento fijo */
-    }
-    .prev-btn { order: 2; } /* Ordena los botones si los apilas */
-    .next-btn { order: 3; }
-    .carousel-inner { order: 1; }
+
     .carousel-item {
-        min-width: 180px; /* Permite más canciones en pantalla si son pequeñas */
+        min-width: 90%; /* Casi todo el ancho para lo mínimo */
+        padding: 6px;
+        margin: 0 3px;
+    }
+
+    .carousel-item img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .song-title {
+        font-size: 0.7em;
+    }
+
+    .song-artist {
+        font-size: 0.65em;
+    }
+
+    .carousel-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 1.1em;
         margin: 0 5px;
     }
-    .carousel-item img {
-        width: 100px;
-        height: 100px;
+
+    .play-song-btn {
+        width: 28px;
+        height: 28px;
+        font-size: 0.7em;
     }
-
 }
-
