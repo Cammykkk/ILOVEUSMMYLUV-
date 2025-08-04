@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist - Our Soundtrack</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="content-page">
+    <button id="soundToggleButton" class="sound-button">
+        🔊 Sonido ON
+    </button>
+    <audio id="playlistMusic" src="audio/playlist_music.mp3" loop></audio>
+
+    <h1 class="content-title">Soundtrack!</h1>
+
+    <div class="carousel-container">
+        <button id="prevBtn" class="carousel-btn prev-btn"></button>
+        <div class="carousel-inner">
+            <div class="carousel-track">
+                <div class="carousel-item">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273502a84b9f8ef66bfa7be316a" alt="Song 1 Cover">
+                    <p class="song-title">Close to you</p>
+                    <p class="song-artist">The Cranberries</p>
+                    <audio src="Music/[They Long To Be] Close To You.mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.iheart.com/v3/catalog/album/334065027?ops=fit(480%2C480)" alt="Song 2 Cover">
+                    <p class="song-title">Free</p>
+                    <p class="song-artist">Rumi, Jinu</p>
+                    <audio src="Music/Free  Official Lyric Video  Sony Animation.mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://m.media-amazon.com/images/I/81JQt4Uv6wL._UF1000,1000_QL80_.jpg" alt="Song 3 Cover">
+                    <p class="song-title">Sweet Caroline</p>
+                    <p class="song-artist">Neil Diamond</p>
+                    <audio src="Music/Glee Cast - Sweet Caroline (Official Audio).mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://m.media-amazon.com/images/I/81m3iTR5bjL._UF1000,1000_QL80_.jpg" alt="Song 4 Cover">
+                    <p class="song-title">Bewitched</p>
+                    <p class="song-artist">Laufey</p>
+                    <audio src="Music/Laufey - Bewitched (Official Music Video).mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn1.umg3.net/452/files/1989/08/lovesong.jpg" alt="Song 5 Cover">
+                    <p class="song-title">Lovesong</p>
+                    <p class="song-artist">The Cure</p>
+                    <audio src="Music/Lovesong (Remastered).mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27398ed501c6a838b2244ebaf75" alt="Song 6 Cover">
+                    <p class="song-title">My All</p>
+                    <p class="song-artist">Mariah Carey</p>
+                    <audio src="Music/Mariah Carey - My All.mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273746a74071efbb3edbb795876" alt="Song 7 Cover">
+                    <p class="song-title">Morenamía</p>
+                    <p class="song-artist">Miguel Bosé</p>
+                    <audio src="Music/Morenamía (Dueto 2007).mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://preview.redd.it/ros%C3%A9-blackpink-1st-solo-album-rosie-alternate-album-covers-v0-zya89hisifzd1.jpg?width=640&crop=smart&auto=webp&s=6b0b802acd2a5cfa75b16a93e7753e86c8eb0d09" alt="Song 8 Cover">
+                    <p class="song-title">drinks or coffee</p>
+                    <p class="song-artist">ROSÉ</p>
+                    <audio src="Music/ROSÉ - drinks or coffee (official audio).mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+
+                 <div class="carousel-item">
+                    <img src="https://i1.sndcdn.com/artworks-f2gMKneLbHro4R8y-e8FCjQ-t500x500.jpg" alt="Song 8 Cover">
+                    <p class="song-title">Ruler of my heart</p>
+                    <p class="song-artist">Sua, Mizi</p>
+                    <audio src="Music/Ruler of my heart (SUA.ver)  Alien Stage.mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+
+                 <div class="carousel-item">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273591c9792502c7e80778de64b" alt="Song 8 Cover">
+                    <p class="song-title">Rara Vez</p>
+                    <p class="song-artist">Milo J</p>
+                    <audio src="Music/Taiu, Milo J - Rara Vez (Audio).mp3"></audio>
+                    <button class="play-song-btn">▶</button>
+                </div>
+            </div>
+        </div>
+        <button id="nextBtn" class="carousel-btn next-btn"></button>
+    </div>
+
+    <a href="home.html" class="back-button" style="margin-top: 30px;">Back</a>
+
+    <script src="Script/playlist.js"></script>
+</body>
+</html>
