@@ -410,7 +410,7 @@ body {
 }
 
 .gallery-item {
-   background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
+   background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
     border: 6px solid rgba(182, 25, 101, 0.957); /* Borde rosa pastel */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: var(--soft-shadow);
@@ -503,7 +503,7 @@ body {
 }
 
 .round-text-container {
-   background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
+   background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
     border: var(--pixel-border);
     border-radius: 20px; /* Borde más redondeado para el texto */
     padding: 20px 30px;
@@ -545,7 +545,7 @@ body {
 }
 
 .gift-item {
-   background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
+   background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
     border: var(--pixel-border);
     border-radius: 12px; /* Bordes redondeados */
     box-shadow: var(--soft-shadow);
@@ -676,7 +676,7 @@ body {
 
 /* Estilos de la Carta */
 .letter-container {
-    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
+    background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
     border: var(--pixel-border);
     border-radius: 15px;
     box-shadow: var(--pixel-shadow);
@@ -837,7 +837,7 @@ body {
     margin: 50px auto;
     display: flex; /* Permite alinear el inner y los botones */
     align-items: center; /* Centra verticalmente los botones con el carrusel */
-    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Dirt_background_BE2.png/revision/latest?cb=20210820065338);
+    background-image: url(https://i.redd.it/xa40ixptjv761.jpg);
     border: var(--pixel-border);
     border-radius: 15px;
     box-shadow: var(--pixel-shadow);
@@ -1152,3 +1152,4 @@ body {
         font-size: 0.7em;
     }
 }
+
