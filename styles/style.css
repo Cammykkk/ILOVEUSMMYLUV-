@@ -865,7 +865,7 @@ body {
     
     border: var(--pixel-border);
     border-radius: 10px;
-    box-shadow: var(--pixel-shadow-small);
+    box-shadow: color rgb(52, 52, 52);
     display: flex; /* Para organizar el contenido de la canción */
     flex-direction: column;
     align-items: center;
@@ -969,6 +969,10 @@ body {
 /* === AJUSTES PARA RESPONSIVIDAD DEL CARRUSEL (PLAYLIST) === */
 /* ========================================= */
 
+/* ========================================= */
+/* === AJUSTES PARA RESPONSIVIDAD DEL CARRUSEL (PLAYLIST) === */
+/* ========================================= */
+
 /* --- AJUSTES PARA TABLETAS (horizontal y vertical) y Laptops pequeñas --- */
 @media (max-width: 1024px) {
     .carousel-container {
@@ -986,19 +990,19 @@ body {
     }
 
     .carousel-item img {
-        width: 200px; /* Fotos de álbum más grandes */
-        height: 200px;
+        width: 150px; /* Fotos de álbum más grandes */
+        height: 150px;
         margin-bottom: 8px;
     }
 
     .song-title {
-        font-size: 1.5em; /* Ligeramente más grande para legibilidad */
+        font-size: 1.1em; /* Ligeramente más grande para legibilidad */
         word-break: break-word; /* Permite que el título se rompa en varias líneas si es muy largo */
         hyphens: auto; /* Ayuda a la división de palabras si el navegador lo soporta */
     }
 
     .song-artist {
-        font-size: 0.9em;
+        font-size: 0.85em;
     }
 
     .carousel-btn {
@@ -1009,9 +1013,9 @@ body {
     }
 
     .play-song-btn {
-        width: 50px;
-        height: 50px;
-        font-size: 3em;
+        width: 40px;
+        height: 40px;
+        font-size: 1em;
     }
 }
 
@@ -1031,7 +1035,7 @@ body {
     }
 
     .carousel-item {
-        min-width: 90%; /* Ajustado: hace que las fotos se vean más grandes, casi llenando la pantalla */
+        min-width: 75%; /* Ajustado: hace que las fotos se vean más grandes, casi llenando la pantalla */
         /* Si quieres solo una canción por vista, puedes poner: min-width: 90%; */
         padding: 10px;
         margin: 0 5px;
@@ -1039,19 +1043,19 @@ body {
     }
 
     .carousel-item img {
-        width: 200px; /* ¡Fotos de álbum más grandes para celulares! */
-        height: 200px;
+        width: 160px; /* ¡Fotos de álbum más grandes para celulares! */
+        height: 160px;
         margin-bottom: 6px;
     }
 
     .song-title {
-        font-size: 1.5em; /* Un buen tamaño para que el título se vea completo */
+        font-size: 1em; /* Un buen tamaño para que el título se vea completo */
         word-break: break-word;
         hyphens: auto;
     }
 
     .song-artist {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .carousel-btn-wrapper { /* Si usas un contenedor para tus botones */
@@ -1070,9 +1074,9 @@ body {
     }
 
     .play-song-btn {
-        width: 60px;
-        height: 60px;
-        font-size: 3em;
+        width: 35px;
+        height: 35px;
+        font-size: 0.9em;
         margin-top: 8px;
     }
 }
@@ -1091,19 +1095,19 @@ body {
     }
 
     .carousel-item img {
-        width: 200px; /* Ajuste para fotos más grandes en estas pantallas */
-        height: 200px;
+        width: 130px; /* Ajuste para fotos más grandes en estas pantallas */
+        height: 130px;
         margin-bottom: 5px;
     }
 
     .song-title {
-        font-size: 1.5em; /* Asegurar que el título quepa bien */
+        font-size: 0.9em; /* Asegurar que el título quepa bien */
         word-break: break-word;
         hyphens: auto;
     }
 
     .song-artist {
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
 
     .carousel-btn {
@@ -1114,9 +1118,9 @@ body {
     }
 
     .play-song-btn {
-        width: 50px;
-        height: 50px;
-        font-size: 3em;
+        width: 30px;
+        height: 30px;
+        font-size: 0.8em;
     }
 }
 
@@ -1157,11 +1161,9 @@ body {
     .play-song-btn {
         width: 28px;
         height: 28px;
-        font-size: 1em;
+        font-size: 0.7em;
     }
 }
-
-
 
 
 
