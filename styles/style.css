@@ -986,19 +986,19 @@ body {
     }
 
     .carousel-item img {
-        width: 130px; /* Fotos de álbum más grandes */
-        height: 130px;
+        width: 300px; /* Fotos de álbum más grandes */
+        height: 300px;
         margin-bottom: 8px;
     }
 
     .song-title {
-        font-size: 1.05em; /* Ligeramente más grande para legibilidad */
+        font-size: 1.8em; /* Ligeramente más grande para legibilidad */
         word-break: break-word; /* Permite que el título se rompa en varias líneas si es muy largo */
         hyphens: auto; /* Ayuda a la división de palabras si el navegador lo soporta */
     }
 
     .song-artist {
-        font-size: 0.85em;
+        font-size: 1.2em;
     }
 
     .carousel-btn {
@@ -1009,9 +1009,9 @@ body {
     }
 
     .play-song-btn {
-        width: 40px;
-        height: 40px;
-        font-size: 1.5em;
+        width: 50px;
+        height: 50px;
+        font-size: 3em;
     }
 }
 
@@ -1031,7 +1031,7 @@ body {
     }
 
     .carousel-item {
-        min-width: 75%; /* Ajustado: hace que las fotos se vean más grandes, casi llenando la pantalla */
+        min-width: 90%; /* Ajustado: hace que las fotos se vean más grandes, casi llenando la pantalla */
         /* Si quieres solo una canción por vista, puedes poner: min-width: 90%; */
         padding: 10px;
         margin: 0 5px;
@@ -1039,19 +1039,19 @@ body {
     }
 
     .carousel-item img {
-        width: 150px; /* ¡Fotos de álbum más grandes para celulares! */
-        height: 150px;
+        width: 310px; /* ¡Fotos de álbum más grandes para celulares! */
+        height: 310px;
         margin-bottom: 6px;
     }
 
     .song-title {
-        font-size: 1em; /* Un buen tamaño para que el título se vea completo */
+        font-size: 2.3em; /* Un buen tamaño para que el título se vea completo */
         word-break: break-word;
         hyphens: auto;
     }
 
     .song-artist {
-        font-size: 0.8em;
+        font-size: 1.3em;
     }
 
     .carousel-btn-wrapper { /* Si usas un contenedor para tus botones */
@@ -1070,9 +1070,9 @@ body {
     }
 
     .play-song-btn {
-        width: 35px;
-        height: 35px;
-        font-size: 1.5em;
+        width: 60px;
+        height: 60px;
+        font-size: 3em;
         margin-top: 8px;
     }
 }
@@ -1091,19 +1091,19 @@ body {
     }
 
     .carousel-item img {
-        width: 130px; /* Ajuste para fotos más grandes en estas pantallas */
-        height: 130px;
+        width: 300px; /* Ajuste para fotos más grandes en estas pantallas */
+        height: 300px;
         margin-bottom: 5px;
     }
 
     .song-title {
-        font-size: 0.9em; /* Asegurar que el título quepa bien */
+        font-size: 2.2em; /* Asegurar que el título quepa bien */
         word-break: break-word;
         hyphens: auto;
     }
 
     .song-artist {
-        font-size: 0.7em;
+        font-size: 1.3em;
     }
 
     .carousel-btn {
@@ -1114,9 +1114,9 @@ body {
     }
 
     .play-song-btn {
-        width: 30px;
-        height: 30px;
-        font-size: 1.5em;
+        width: 50px;
+        height: 50px;
+        font-size: 2.5em;
     }
 }
 
@@ -1160,6 +1160,7 @@ body {
         font-size: 1em;
     }
 }
+
 
 
 
