@@ -74,8 +74,8 @@ body {
     transform: scale(0.95);
 }
 
-.footer{
-    color: var(--secondary-color)
+.index-page footer p{
+    color: rgba(237, 115, 219, 0.888);
 }
 
 /* --- AJUSTES PARA TABLETAS (horizontal y vertical) y Laptops pequeñas --- */
@@ -1160,6 +1160,7 @@ body {
         font-size: 1em;
     }
 }
+
 
 
 
